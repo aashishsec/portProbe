@@ -1,6 +1,6 @@
 # portProbe
 
-- HttpAlive is a  tool designed to efficiently probe for alive subdomains and Urls  from a provided list along with statuscode and content length. 
+- portProbe is a tool designed to efficiently probe for open ports. It will take both IP Address and Subdomains.
   
 -  Works in all platforms.
 
@@ -12,9 +12,9 @@
 
 
 ```bash
-git clone https://github.com/aashish36/httpAlive.git
+git clone https://github.com/aashish36/portProbe.git
 
-cd httpAlive
+cd portProbe
 
 pip install -r requirements.txt
 
@@ -22,24 +22,29 @@ pip install -r requirements.txt
 
 ## Usage
 
-- Create a file containing that contains list of URLs or subdoamins or both and give to httpAlive. The output contains status codes and content length.
+- Create a file containing that contains list of Ip Address or subdomains or both and give to portProbe.
 
 - This python code will save the results of the analysis to a file named 'output.txt'.
 
-- Run the script using the following command: 
+- Run the script using the following commands: 
 
 ``` bash
 
-usage: httpalive-Mark6.py [-h] [-d list] [-o output]
-
-httpAlive is a tool designed to efficiently probe for alive subdomains and Urls from a provided list.
+portProbe is a tool designed to efficiently probe for open ports. It will take both IP Address and Subdomains.
 
 options:
+  -h, --help            show this help message and exit
 
-  -h, --help            show this help message and exit.
+  -d Domain, --Domain Domain
+                        [INFO]: Domain to probe.
 
-  -d list, --DomainList list
-                        [INFO]: List of Subdomains or URLs.
+  -dL DomainList, --DomainList DomainList
+                        [INFO]: List of Domain to probe.
+
+  -i ip, --ip ip        [INFO]: IP Address to probe.
+
+  -iL IpList, --IpList IpList
+                        [INFO]: List of Ip to probe.
 
   -o output, --output output
                         [INFO]: File to save our output.
