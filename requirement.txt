@@ -1,0 +1,3 @@
+socket
+portscan
+colorama
