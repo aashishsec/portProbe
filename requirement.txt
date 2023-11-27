@@ -2,3 +2,4 @@ socket
 portscan
 colorama
 ipaddress
+scapy
