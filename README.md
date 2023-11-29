@@ -50,6 +50,10 @@ options:
                         [INFO]: File to save our output.
 
 ```
+## Tool Output
+
+![image](https://github.com/aashishsec/portProbe/assets/65489287/8afa9812-d608-4f28-b93b-07b2b920eb44)
+
 
 ## Contributing
 
