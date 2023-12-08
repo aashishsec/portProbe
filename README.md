@@ -1,4 +1,4 @@
-# portProbe
+# portProbe - Full Port Scanner
 
 - portProbe is a tool designed to efficiently probe for open ports. It will take both IP Address and Subdomains.
   
