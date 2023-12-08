@@ -1,6 +1,10 @@
 # portProbe - Full Port Scanner
 
-- portProbe is a tool designed to efficiently probe for open ports. It will take both IP Address and Subdomains.
+- portProbe is a Python-based tool designed for efficient probing of open ports on a target system.
+  
+- The tool supports both TCP and UDP port scanning on specified IP addresses or domains.
+
+- It utilizes multithreading for faster scanning and allows users to save results to an output file.
   
 -  Works in all platforms.
 
