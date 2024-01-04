@@ -43,7 +43,7 @@ def banner():
 ██║░░░░░╚█████╔╝██║░░██║░░░██║░░░██║░░░░░██║░░██║╚█████╔╝██████╦╝███████╗
 ╚═╝░░░░░░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░░░░╚═╝░░╚═╝░╚════╝░╚═════╝░╚══════╝
           
-          Github   : https://github.com/aashish36
+          Github   : https://github.com/aashishsec
           
           portProbe is a tool designed to efficiently probe for open ports. It will take both IP Address and Subdomains.
 ''')
