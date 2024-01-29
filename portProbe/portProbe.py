@@ -132,7 +132,7 @@ def get_args():
    
     # parser.add_argument( "-p", "--ports",dest="ports",help=f"[{bold}{random_color}INFO]: {bold}{random_color}Port range to scan, default is 1-65535 (all ports)",required=False,action="store",default="1-65535")
 
-    parser.add_argument("-t", "--threads", help=f"[{bold}INFO{random_color}]: {random_color}{random_color}Threading level to make fast process. default=100", type=int, default=100,required=False) 
+    parser.add_argument("-t", "--threads", help=f"[{bold}INFO{random_color}]: {random_color}{random_color}Threading level to make fast process. default=100", type=int, default=10,required=False) 
    
     parser.add_argument('-o','--output',metavar='output',type=str,default="portProbe.txt",help=f"[{bold}{random_color}INFO]: {bold}{random_color}File to save our output.")
     
