@@ -91,7 +91,7 @@ def checking_vesion():
                 
                     message = "latest"
                 
-                    print(f"[{blue}Version{reset}]: {bold}{white}portProbe current version {version} ({green}{message}{reset})")
+                    print(f"{bold}{white}portProbe current version {version} ({green}{message}{reset})")
                 
                     t.sleep(1)
                 
@@ -99,7 +99,7 @@ def checking_vesion():
                 
                     message ="outdated"
                 
-                    print(f"[{blue}Version{reset}]: {bold}{white}portProbe current version {version} ({red}{message}{reset})")
+                    print(f"{bold}{white}portProbe current version {version} ({red}{message}{reset})")
 
             
     except KeyboardInterrupt as e:
