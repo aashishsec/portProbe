@@ -1,6 +1,8 @@
 # portProbe - Full Port Scanner
 
 [Tool Link](https://github.com/aashishsec/portProbe/)
+---
+![GitHub last commit](https://img.shields.io/github/last-commit/aashishsec/portProbe) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/aashishsec/portProbe) [![GitHub license](https://img.shields.io/github/license/aashishsec/portProbe)](https://github.com/aashishsec/portProbe/blob/main/LICENSE) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/aashishsec/)
 
 - portProbe is a Python-based tool designed for efficient probing of open ports on a target system.
   
