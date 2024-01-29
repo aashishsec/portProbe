@@ -44,6 +44,8 @@ random_color = random.choice(colors)
 
 bold = Style.BRIGHT
 
+reset = Style.RESET_ALL
+
 global_output=[]
 
 def banner():
