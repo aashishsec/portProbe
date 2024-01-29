@@ -11,6 +11,7 @@ setup(
         'sockets',
         'ipaddress',
         'colorama',
+        'requests'
     ],
     extras_require={
         'dev': ['argparse', 'concurrent.futures','random'],
