@@ -69,7 +69,7 @@ def checking_vesion():
 
     version = "v1.0.2"
     
-    url = f"https://api.github.com/repos/aashishsec/httpAlive/releases/latest"
+    url = f"https://api.github.com/repos/aashishsec/portProbe/releases/latest"
     
     try:
             
@@ -85,7 +85,7 @@ def checking_vesion():
                 
                     message = "latest"
                 
-                    print(f"[{blue}Version{reset}]: {bold}{white}httpAlive current version {version} ({green}{message}{reset})")
+                    print(f"[{blue}Version{reset}]: {bold}{white}portProbe current version {version} ({green}{message}{reset})")
                 
                     t.sleep(1)
                 
@@ -93,12 +93,12 @@ def checking_vesion():
                 
                     message ="outdated"
                 
-                    print(f"[{blue}Version{reset}]: {bold}{white}httpAlive current version {version} ({red}{message}{reset})")
+                    print(f"[{blue}Version{reset}]: {bold}{white}portProbe current version {version} ({red}{message}{reset})")
 
             
     except KeyboardInterrupt as e:
         
-            print(f"[{blue}INFO{random_color}]: httpAlive says BYE!")
+            print(f"[{blue}INFO{random_color}]: portProbe says BYE!")
         
             exit()
                 
