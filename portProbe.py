@@ -51,9 +51,51 @@ def banner():
 
     print(f"{bold}{random_color}portProbe starting at {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
 
+    checking_vesion()
+
     print("-" * 80)
 
+def checking_vesion():
+
+    version = "v1.0.2"
     
+    url = f"https://api.github.com/repos/aashishsec/httpAlive/releases/latest"
+    
+    try:
+            
+         response =  requests.get(url, timeout=10)
+          
+         if response.status_code == 200:
+            
+            data = response.json()
+                
+            latest = data.get('name')
+            
+            if latest == version:
+                
+                    message = "latest"
+                
+                    print(f"[{blue}Version{reset}]: {bold}{white}httpAlive current version {version} ({green}{message}{reset})")
+                
+                    t.sleep(1)
+                
+            else:
+                
+                    message ="outdated"
+                
+                    print(f"[{blue}Version{reset}]: {bold}{white}httpAlive current version {version} ({red}{message}{reset})")
+
+            
+    except KeyboardInterrupt as e:
+        
+            print(f"[{blue}INFO{random_color}]: httpAlive says BYE!")
+        
+            exit()
+                
+    except Exception as e:
+
+           pass
+
 def saveOutput(output):
 
     with open(output, 'w') as file:
